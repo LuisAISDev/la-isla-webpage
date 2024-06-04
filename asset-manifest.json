@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/la-isla-webpage/static/css/main.7e7e12d1.css",
-    "main.js": "/la-isla-webpage/static/js/main.265b3abd.js",
+    "main.js": "/la-isla-webpage/static/js/main.3cbc3f7c.js",
     "static/js/453.b48bb339.chunk.js": "/la-isla-webpage/static/js/453.b48bb339.chunk.js",
     "index.html": "/la-isla-webpage/index.html",
     "main.7e7e12d1.css.map": "/la-isla-webpage/static/css/main.7e7e12d1.css.map",
-    "main.265b3abd.js.map": "/la-isla-webpage/static/js/main.265b3abd.js.map",
+    "main.3cbc3f7c.js.map": "/la-isla-webpage/static/js/main.3cbc3f7c.js.map",
     "453.b48bb339.chunk.js.map": "/la-isla-webpage/static/js/453.b48bb339.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e7e12d1.css",
-    "static/js/main.265b3abd.js"
+    "static/js/main.3cbc3f7c.js"
   ]
 }
