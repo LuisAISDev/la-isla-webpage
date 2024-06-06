@@ -1,0 +1,48 @@
+/* Styles for Section Two */
+.section-two {
+  padding: 50px 0; /* Add padding as needed */
+}
+
+.section-two .section-content {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-two-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-two-subsection {
+  flex: 0 0 calc(50% - 10px); /* Adjust width of subsections */
+  display: flex;
+  flex-direction: row;
+}
+
+.sec-two-subsection-divider {
+  height: 70%;
+  width: 2px;
+  background-color: #000; /* Black thin line */
+}
+
+.sec-two-subsection-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.sec-two-subsection-content h2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  margin-top: 0px; /* Adjust margin as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.sec-two-subsection-content p {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 1rem; /* Adjust font size as needed */
+}
