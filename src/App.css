@@ -28,6 +28,13 @@ body {
 
 .width-limiter {
   max-width: 1030px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.flex-centered {
+  display: flex;
+  align-items: center;
 }
 
 .app-title {

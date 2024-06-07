@@ -14,16 +14,16 @@ const Header = () => {
         <nav className="header__nav">
           <ul>
             <li>
-              <Link to="/la-isla-webpage/monsters">HOME</Link>
+              <Link to="/la-isla-webpage/">HOME</Link>
             </li>
             <li>
-              <Link to="/la-isla-webpage/monsters">PRIVATE LABEL SWIMWEAR</Link>
+              <Link to="/la-isla-webpage/private">PRIVATE LABEL SWIMWEAR</Link>
             </li>
             <li>
-              <Link to="/la-isla-webpage/monsters">ABOUT US</Link>
+              <Link to="/la-isla-webpage/private">ABOUT US</Link>
             </li>
             <li>
-              <Link to="/la-isla-webpage/monsters">CONTACT US</Link>
+              <Link to="/la-isla-webpage/private">CONTACT US</Link>
             </li>
           </ul>
         </nav>
