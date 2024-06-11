@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/la-isla-webpage/static/css/main.625bb8d3.css",
-    "main.js": "/la-isla-webpage/static/js/main.d1c08810.js",
+    "main.css": "/la-isla-webpage/static/css/main.e261e20e.css",
+    "main.js": "/la-isla-webpage/static/js/main.5bf62c80.js",
     "static/js/453.b48bb339.chunk.js": "/la-isla-webpage/static/js/453.b48bb339.chunk.js",
     "static/media/big-frame.png": "/la-isla-webpage/static/media/big-frame.c0676309c5f9ddc6852d.png",
     "static/media/thirdmodelwhite.png": "/la-isla-webpage/static/media/thirdmodelwhite.0ddb6074ac8f96c4ebad.png",
     "static/media/fourthmodelorange.png": "/la-isla-webpage/static/media/fourthmodelorange.76fe5996bdcd3cd1d1b4.png",
     "static/media/fourthmodelpink.png": "/la-isla-webpage/static/media/fourthmodelpink.cc770f8e4673ddd1e19e.png",
+    "static/media/seohero.png": "/la-isla-webpage/static/media/seohero.ca047012edf11e142914.png",
     "static/media/fourthmodelblue.png": "/la-isla-webpage/static/media/fourthmodelblue.ae7235911a7378b25727.png",
+    "static/media/internatitle.png": "/la-isla-webpage/static/media/internatitle.6e6ea5b5b4d87e4bae2f.png",
     "static/media/privatefirstmodel.png": "/la-isla-webpage/static/media/privatefirstmodel.910a7207b1a9b5f14718.png",
     "static/media/contactmodelblue.png": "/la-isla-webpage/static/media/contactmodelblue.3d66c1c31c847855213d.png",
     "static/media/secondmodelpink.png": "/la-isla-webpage/static/media/secondmodelpink.321e2cf6c8f4fd203436.png",
@@ -21,15 +23,27 @@
     "static/media/aboutmodelgold.png": "/la-isla-webpage/static/media/aboutmodelgold.3615e1c4891ca3793ea5.png",
     "static/media/privatesecondmodel1.png": "/la-isla-webpage/static/media/privatesecondmodel1.f3362de46120b4069b13.png",
     "static/media/privatesecondmodel2.png": "/la-isla-webpage/static/media/privatesecondmodel2.56c31fca6aae47132d3f.png",
+    "static/media/seomodelradius.png": "/la-isla-webpage/static/media/seomodelradius.09aa7db7ebf0319aa692.png",
+    "static/media/internasecond.png": "/la-isla-webpage/static/media/internasecond.b52e94e3c6a087ce27d1.png",
+    "static/media/journalmodelblue.png": "/la-isla-webpage/static/media/journalmodelblue.dc6be0d5c51aaf3b6070.png",
+    "static/media/internathird.png": "/la-isla-webpage/static/media/internathird.a10708aebb1a6b23e9e7.png",
     "index.html": "/la-isla-webpage/index.html",
+    "static/media/Heart.svg": "/la-isla-webpage/static/media/Heart.174d5e95013794f4ba727887792f1091.svg",
+    "static/media/quoterev.svg": "/la-isla-webpage/static/media/quoterev.a85cd2cc60476117bf850e8946738b1c.svg",
+    "static/media/quote.svg": "/la-isla-webpage/static/media/quote.6da7a427bc716896d935e6ed5ce07319.svg",
     "static/media/Check.svg": "/la-isla-webpage/static/media/Check.8b05be250117faba6361b6806317b52a.svg",
+    "static/media/playseo.svg": "/la-isla-webpage/static/media/playseo.25689f0ce2608097872441974aca806d.svg",
+    "static/media/Prev.svg": "/la-isla-webpage/static/media/Prev.314125a7f254b63d2b56fffeb40d75c0.svg",
+    "static/media/yellowquote.svg": "/la-isla-webpage/static/media/yellowquote.18a5cc0dba13fb88c737d4e33f02ee0e.svg",
+    "static/media/Next.svg": "/la-isla-webpage/static/media/Next.0a39376a7ebb25a3089c0df876a9bf66.svg",
+    "static/media/PrevDown.svg": "/la-isla-webpage/static/media/PrevDown.4baf97f31953f052e29019475b6a7071.svg",
     "static/media/criclearrow.svg": "/la-isla-webpage/static/media/criclearrow.b3da3a1184c8bb029a4b1e5f6dd48790.svg",
-    "main.625bb8d3.css.map": "/la-isla-webpage/static/css/main.625bb8d3.css.map",
-    "main.d1c08810.js.map": "/la-isla-webpage/static/js/main.d1c08810.js.map",
+    "main.e261e20e.css.map": "/la-isla-webpage/static/css/main.e261e20e.css.map",
+    "main.5bf62c80.js.map": "/la-isla-webpage/static/js/main.5bf62c80.js.map",
     "453.b48bb339.chunk.js.map": "/la-isla-webpage/static/js/453.b48bb339.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.625bb8d3.css",
-    "static/js/main.d1c08810.js"
+    "static/css/main.e261e20e.css",
+    "static/js/main.5bf62c80.js"
   ]
 }
