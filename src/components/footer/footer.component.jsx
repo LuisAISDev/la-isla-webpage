@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.styles.css"; // Import your CSS file for styling
 import { Link } from "react-router-dom";
+import circlearrow from "../../assets/home/criclearrow.svg";
 
 const Footer = () => {
   return (
@@ -21,44 +22,108 @@ const Footer = () => {
             </p>
           </div>
           <div className="footer__industries">
-            <h3>Some Industries</h3>
+            <h3>SOME INDUSTRIES</h3>
             <div className="footer__industries-divider"></div>
             <div className="list-organizer">
               <ul className="footer__industries-list">
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 {/* Add more industry links as needed */}
               </ul>
               <ul className="footer__industries-list">
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 <li>
-                  <span className="footer__arrow">&#8594;</span>
-                  <Link to="/la-isla-webpage/">Lorem ipsum dolor sit amet</Link>
+                  <div className="footer__link-container">
+                    <img
+                      className="footer__arrow"
+                      src={circlearrow}
+                      alt=" je "
+                    />
+                    <Link to="/la-isla-webpage/">
+                      Lorem ipsum dolor sit amet
+                    </Link>
+                  </div>
                 </li>
                 {/* Add more industry links as needed */}
               </ul>

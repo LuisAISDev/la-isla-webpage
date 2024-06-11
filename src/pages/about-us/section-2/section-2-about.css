@@ -1,45 +1,59 @@
-.Section2About{
-    display: flex;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 120px;
-    margin-right: 120px;
-    
+.Section2About {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-.Section2ImageRegion{
-    width: 100%;
-    
 
+.Section2Centered {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
 }
-.Section2ImageRegion img{
-    width: 85%;
-    
+
+.Section2ImageRegion {
+  width: 50%;
 }
-.Section2TextRegion{
-    width: 75%;
+.Section2ImageRegion img {
+  width: 100%;
+  padding-right: 20px;
 }
-.Section2TextRegion h2{
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 20px;
+.Section2TextRegion {
+  width: 50%;
+  padding-left: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.Section2TextRegion hr{
-    border: 2px solid #000;
-    width: 24%;
-    margin-bottom: 17px;
+.Section2TextRegion h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 25px;
 }
-.Section2TextRegion h1{
-    font-family: "Bebas Neue", sans-serif;
-    color: #977347;
-    font-size: 50px;
-    line-height: 55px;
-    font-weight: 400;
-    margin-bottom: 30px;
-    width: 85%;
+.Section2TextRegion hr {
+  border: 1px solid #000;
+  width: 24%;
+  margin-bottom: 20px;
 }
-.Section2TextRegion p{
-    font-weight: 300;
-    font-size: 18px;
-    width: 90%;
-    line-height: 27px;
+.Section2TextRegion h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #977347;
+  font-size: 3rem;
+  max-width: 420px;
+  line-height: 0.95;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.Section2TextRegion p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.2;
+  max-width: 420px;
 }

@@ -1,13 +1,17 @@
-import React from 'react'
-import './ContactUs.css'
-import Section1Contact from '../../Components/ContactUs/Section1Contact/Section1Contact'
+import React from "react";
+import "./contact-us.css";
+import Section1Contact from "./section-1/section-1";
+import Header from "../../components/header/header.component";
+import Footer from "../../components/footer/footer.component";
 
 const ContactUs = () => {
   return (
     <div>
-        <Section1Contact/>
+      <Header />
+      <Section1Contact />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default ContactUs
+export default ContactUs;

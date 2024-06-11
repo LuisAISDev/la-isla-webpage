@@ -1,44 +1,59 @@
-.Section3PrivateLabel{
-    background-color: #EEE2D5;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
-
-
+.Section3PrivateLabel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eee2d5;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
 }
 
-
-.Section3PrivateLabel h2{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 17px;
-    width: 30%;
-}
-.Section3PrivateLabel hr{
-    border: 2px solid #000;
-    width: 8%;
-    margin-bottom: 50px;
-}
-.Section3Grid{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-}
-.Section3PrivateCheckText{
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    margin-bottom: 30px;
-}
-.Section3PrivateCheckText div{
-    margin-right: 20px;
-}
-.Section3PrivateCheckText p{
-    width: 97%;
-    line-height: 25px;
-    font-size: 16px;
-    font-weight: 400;
+.Sec3Centered {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
+.Section3Grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Section3Grid .widthequivalent {
+  width: 50%;
+}
+
+.Section3PrivateLabel h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 17px;
+  max-width: 350px;
+}
+.Section3PrivateLabel hr {
+  border: 2px solid #000;
+  width: 8%;
+  margin-bottom: 50px;
+}
+
+.Section3PrivateCheckText {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+.Section3PrivateCheckText div {
+  margin-right: 20px;
+}
+.Section3PrivateCheckText p {
+  width: 97%;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.forceLeftMargin {
+  margin-left: 20px;
+}

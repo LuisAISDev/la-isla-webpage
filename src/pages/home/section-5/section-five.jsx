@@ -1,6 +1,5 @@
 import React from "react";
 import "./section-five.css";
-import blackline from "../../../assets/home/blackline.svg";
 import modelblue from "../../../assets/home/fourthmodelblue.png";
 import modelorange from "../../../assets/home/fourthmodelorange.png";
 import modelpink from "../../../assets/home/fourthmodelpink.png";
@@ -9,14 +8,16 @@ const SectionFive = () => {
   return (
     <div className="flex-centered section-five-colour">
       <div className="SectionFive width-limiter">
-        <div className="fiveTitle">
-          <h2>Sustainability</h2>
-          <img src={blackline} alt="" />
-          <h1>
-            At La Isla, sustainability isn't just a buzzword – it's a way of
-            life.
-          </h1>
+        <div className="fiveTitleCenter">
+          <div className="fiveTitle">
+            <h2>Sustainability</h2>
+            <h1>
+              At La Isla, sustainability isn't just a buzzword – it's a way of
+              life.
+            </h1>
+          </div>
         </div>
+
         <div className="fiveimages">
           <img src={modelorange} alt="" />
           <img className="fiveCenterImage" src={modelblue} alt="" />
@@ -31,7 +32,8 @@ const SectionFive = () => {
             utilizing recycled materials, we're committed to making a positive
             impact on both the industry and the planet.
           </p>
-          <br />
+          
+          <hr/>
           <p className="fiveboldtext">
             Reach out to us so we can help you embark on a journey of
             creativity, innovation, and sustainability!

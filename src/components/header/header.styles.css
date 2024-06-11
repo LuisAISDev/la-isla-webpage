@@ -4,9 +4,10 @@
   display: flex;
   justify-content: center; /* Centers the header-container horizontally */
   align-items: center;
-  height: 100px;
+  height: 70px;
   position: fixed;
   z-index: 10;
+  border-bottom: 3px solid #977347;
 }
 
 .header-container {
@@ -14,12 +15,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 80%; /* Adjust width as needed */
+  width: 100%; /* Adjust width as needed */
   margin: 0 auto; /* Center container horizontally */
 }
 
+
+
 .logo {
-  width: 150px; /* Adjust width as needed */
+  width: 190px; /* Adjust width as needed */
 }
 
 .header__nav {
@@ -30,14 +33,16 @@
 }
 
 .header__nav li {
-  margin-right: 1rem; /* Adjust spacing as needed */
+  margin-left: 3rem; /* Adjust spacing as needed */
   display: inline-block; /* Optional for spacing */
 }
 
 .header__nav a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 400; /* Specify bold weight */
+  font-size: 0.95rem; /* Adjust font size as needed */
 }
 
 .header__nav a:hover {

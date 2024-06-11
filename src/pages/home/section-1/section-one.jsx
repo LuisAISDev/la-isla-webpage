@@ -1,11 +1,11 @@
 import "./section-one.css";
 
 const SectionOne = () => (
-  <div class="section section-one">
-    <div class="section-one-background"></div>
-    <div class="section-content">
-      <div class="container width-limiter">
-        <div class="section-one-text">
+  <div className="section section-one">
+    <div className="section-one-background"></div>
+    <div className="section-content">
+      <div className="container width-limiter">
+        <div className="section-one-text">
           <h1>Excellence in Swimwear Manufacturing with La Isla</h1>
           <p>
             Welcome to La Isla, one of the world’s premier destinations for

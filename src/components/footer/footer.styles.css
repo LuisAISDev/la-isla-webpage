@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center; /* Center content horizontally */
-  width: 80%; /* Adjust width as needed */
   margin: 0 auto; /* Center container horizontally */
+  padding-top: 25px;
 }
 
 .footer__contact-info {
@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: column;
   align-items: left;
+  justify-content: space-between; /* Space sections horizontally */
 }
 
 
@@ -32,18 +33,22 @@
 .footer__contact-details {
   line-height: 1.5; /* Adjust line spacing as needed */
   text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 
 .footer__contact-details span {
-  font-size: 14px; /* Adjust font size as needed */
+  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 700; /* Specify bold weight */
+  font-size: 0.8rem; /* Adjust font size as needed */
   display: inline-block; /* Ensures the elements respect margin and padding */
 }
 .footer__contact-details span:first-child::after {
   content: "";
   display: block;
-  width: 100px;
-  height: 2px; /* Adjust height as needed */
+  width: 80px;
+  height: 1px; /* Adjust height as needed */
   background-color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -55,7 +60,7 @@
 }
 
 .footer__logo {
-  width: 200px; /* Adjust width as needed */
+  width: 270px; /* Adjust width as needed */
   margin-right: 1rem;
 }
 
@@ -63,13 +68,25 @@
 
 .footer__industries {
   text-align: left; /* Align text to the left */
-  width: 55%;
+  width: auto;
+  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 700; /* Specify bold weight */
+  font-size: 0.7rem; /* Adjust font size as needed */
 }
 
 .list-organizer {
   display: flex;
-  justify-content: space-between; /* Space the lists horizontally */
+  justify-content: left; /* Space the lists horizontally */
   width: 100%; /* Ensure it takes the full width of the container */
+}
+
+.list-organizer > ul { /* Target direct child divs */
+  font-size: 0.8rem; /* Adjust font size as needed */
+  margin-right: 20px; /* Add margin-right for separation */
+}
+
+.list-organizer > ul:last-child { /* Remove margin from last child */
+  margin-right: 0; /* Ensures no extra space at the end */
 }
 
 .footer__industries h3 {
@@ -111,15 +128,20 @@
   margin-bottom: 0.5rem;
 }
 
+.footer__link-container {
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Vertically center child elements */
+}
+
 .footer__arrow {
-  font-size: 1rem; /* Adjust arrow size as needed */
+  width: 19px;
   margin-right: 0.5rem;
 }
 
 .footer__social-media {
   display: flex;
   justify-content: center; /* Center icons horizontally */
-  margin-top: 2rem;
+  margin-top: 1.6rem;
 }
 
 .footer__social-icon {

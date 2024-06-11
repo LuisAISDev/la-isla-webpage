@@ -1,94 +1,110 @@
-.Section1PrivateLabel{
-    background-color: #DDF2F2;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
+.Section1PrivateLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddf2f2;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Section 1 Private 1 CSSS*/
 
-.Section1Private1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    
+.Section1Private1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /* Text Region */
 
-.Section1PrivateTextRegion{
-    width: 70%;
-    margin-right: 120px;
+.Section1PrivateTextRegion {
+  width: 50%;
+  padding-right: 95px;
+}
+.Section1PrivateTextRegion h2 {
+  font-family: "Montserrat", sans-serif; /* Fallback to regular if bold not loaded */
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.Section1PrivateTextRegion hr {
+  border: 2px solid #000;
+  width: 24%;
+  margin-bottom: 30px;
+}
+.Section1PrivateTextRegion p {
+  font-family: "Montserrat", sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 400; /* Specify bold weight */
+  font-size: 1rem;
+  width: 100%;
+  display: inline;
+}
 
-}
-.Section1PrivateTextRegion h2{
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 17px;
-}
-.Section1PrivateTextRegion hr{
-    border: 2px solid #000;
-    width: 24%;
-    margin-bottom: 30px;
-}
-.Section1PrivateTextRegion p{
-    font-weight: 300;
-    font-size: 16px;
-    width: 95%;
-    line-height: 22px;
+.Section1PrivateTextRegion .boldtext {
+  font-family: "Montserrat", sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 700; /* Specify bold weight */
+  font-size: 1rem;
+  width: 100%;
+  display: inline;
 }
 
 /* Image Region */
 
-.Section1PrivateImageRegion{
-    width: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-
+.Section1PrivateImageRegion {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-left: 10px;
 }
-.Section1PrivateImageRegion img{
-    width: 80%;
+.Section1PrivateImageRegion img {
+  width: 100%;
 }
-
 
 /* Section 1 Private 2 CSS*/
 
-.Section1Private2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-
+.Section1Private2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 /* Image Region */
 
-.Section1PrivateImageRegion2{
-    width: 50%;
-    display: flex;
-    align-items: center;
-
+.Section1PrivateImageRegion2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
-.Section1PrivateImageRegion2 img{
-    width: 50%;
+.Section1PrivateImageRegion2 img {
+  width: 50%;
+  margin-right: 10px;
 }
-.Section1PrivateImageRegion2 div{
-    margin-left: 5px;
-    margin-right: 5px;
+.Section1PrivateImageRegion2 div {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /*Text Region*/
-.Section1PrivateTextRegion2{
-    width: 40%;
-
+.Section1PrivateTextRegion2 {
+  width: 50%;
+  padding-left: 95px;
 }
-.Section1PrivateTextRegion2 p{
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
+.Section1PrivateTextRegion2 p {
+  font-family: "Montserrat", sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 400; /* Specify bold weight */
+  font-size: 1rem;
+  width: 100%;
+  display: inline;
 }
 
+.Section1PrivateTextRegion2 .boldtext {
+  font-family: "Montserrat", sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 700; /* Specify bold weight */
+  font-size: 1rem;
+  width: 100%;
+  display: inline;
+}

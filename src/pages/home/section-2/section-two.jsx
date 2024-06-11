@@ -5,7 +5,6 @@ const SectionOne = () => (
     <div className="section-content">
       <div className="sec-two-container width-limiter">
         <div className="sec-two-subsection">
-          <div className="sec-two-subsection-divider"></div>
           <div className="sec-two-subsection-content">
             <h2>Over two decades of industry expertise</h2>
             <p>
@@ -15,7 +14,6 @@ const SectionOne = () => (
           </div>
         </div>
         <div className="sec-two-subsection">
-          <div className="sec-two-subsection-divider"></div>
           <div className="sec-two-subsection-content">
             <h2>Our US offices</h2>
             <p>

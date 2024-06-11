@@ -20,10 +20,10 @@ const Header = () => {
               <Link to="/la-isla-webpage/private">PRIVATE LABEL SWIMWEAR</Link>
             </li>
             <li>
-              <Link to="/la-isla-webpage/private">ABOUT US</Link>
+              <Link to="/la-isla-webpage/about">ABOUT US</Link>
             </li>
             <li>
-              <Link to="/la-isla-webpage/private">CONTACT US</Link>
+              <Link to="/la-isla-webpage/contact">CONTACT US</Link>
             </li>
           </ul>
         </nav>

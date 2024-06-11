@@ -1,15 +1,19 @@
 import React from 'react'
-import './AboutUs.css'
-import Section1About from '../../Components/AboutUs/Section1About/Section1About'
-import Section2About from '../../Components/AboutUs/Section2About/Section2About'
-import Section3About from '../../Components/AboutUs/Section3About/Section3About'
+import './about-us.css'
+import SectionOne from './section-1/section-1-about'
+import SectionTwo from './section-2/section-2-about'
+import SectioThree from './section-3/section-3-about'
+import Header from "../../components/header/header.component";
+import Footer from "../../components/footer/footer.component";
 
 const AboutUs = () => {
   return (
     <div>
-      <Section1About/>
-      <Section2About/>
-      <Section3About/>
+      <Header />
+      <SectionOne/>
+      <SectionTwo/>
+      <SectioThree/>
+      <Footer />
     </div>
   )
 }

@@ -1,68 +1,67 @@
-.Section3About{
-    background-color: #DDF2F2;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
+.Section3About {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ddf2f2;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
 }
 
 /* Section 1 Private 1 CSSS*/
 
-.Section3About1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    
-    
+.Section3About1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* Text Region */
 
-.Section3AboutTextRegion{
-    width: 100%;
-    
-
+.Section3AboutTextRegion {
+  width: 100%;
 }
-.Section3AboutTextRegion p{
-    font-weight: 400;
-    font-size: 18px;
-    width: 87%;
-    line-height: 28px;
+.Section3AboutTextRegion p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-right: 100px;
+  max-width: 700px;
+  line-height: 28px;
 }
 
 /* Image Region */
 
-.Section3AboutImageRegion{
-    width:100%;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-
+.Section3AboutImageRegion {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
 }
-.Section3AboutImageRegion img{
-    width: 89%;
+.Section3AboutImageRegion img {
+  width: 100%;
+  margin-left: 20px;
 }
 
-
-.Section3AboutContact{
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    margin-top: 32px;
-
+.Section3AboutContact {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-top: 32px;
 }
-.Section3AboutcontactBtn{
-    background: #977347;
-    color: #fff;
-    padding: 16px 32px;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.Section3AboutcontactBtn {
+  background: #977347;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 16px 32px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }

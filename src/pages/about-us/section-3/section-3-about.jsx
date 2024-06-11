@@ -1,11 +1,11 @@
 import React from 'react'
-import './Section3About.css'
-import model from '../../../assets/aboutmodelblue3.png'
+import './section-3-about.css'
+import model from '../../../assets/home/aboutmodelblue3.png'
 
 const Section3About = () => {
   return (
     <div className='Section3About'>
-      <div className='Section3About1'>
+      <div className='Section3About1 width-limiter'>
             <div className='Section3AboutTextRegion'>
                 <p>
                 At La Isla, we maintain exclusive partnerships with reputable Colombian and European suppliers to procure premium-quality fabrics, threads, hardware, and trims. Our longstanding relationships with these suppliers afford us preferential treatment, resulting in streamlined processes and enhanced brand offerings for our clients. <br/><br/><b>We look forward to the opportunity to collaborate with you and address your full package swimwear private label manufacturing needs.</b>

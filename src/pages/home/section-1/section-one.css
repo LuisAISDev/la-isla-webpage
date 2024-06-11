@@ -3,15 +3,29 @@
   position: relative;
   height: 500px;
   overflow: hidden; /* Hide overflow content */
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .section-one-background {
-  background-image: url("../../../assets/home/main-frame.png"); /* Specify the path to your background image */
+  background-image: url("../../../assets/home/big-frame.png"); /* Specify the path to your background image */
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 100%;
+}
+
+/* Styles for desktop screens (larger than 768px) */
+@media (min-width: 768px) {
+  .section-one-background {
+    background-image: url("../../../assets/home/wide-frame.png"); /* Specify the path to your background image */
+  }
+}
+
+/* Styles for mobile screens (less than 768px) */
+@media (max-width: 767px) {
+  .section-one-background {
+    background-image: url("../../../assets/home/big-frame.png"); /* Specify the path to your background image */
+  }
 }
 
 .section-one .section-content {
@@ -26,19 +40,24 @@
 
 .section-one .container {
   margin: 0 auto;
-  padding: 0 20px; /* Adjust padding as needed */
 }
 
 .section-one .section-one-text {
-  max-width: 320px;
+  max-width: 310px;
   color: white; /* Adjust text color */
+  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 700; /* Specify bold weight */
+  font-size: 1rem; /* Adjust font size as needed */
 }
 
 .section-one .section-one-text h1 {
   font-size: 2.2rem; /* Adjust font size as needed */
   margin-bottom: 20px; /* Adjust margin as needed */
+
 }
 
 .section-one .section-one-text p {
+  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
+  font-weight: 300; /* Specify bold weight */
   font-size: 1rem; /* Adjust font size as needed */
 }
