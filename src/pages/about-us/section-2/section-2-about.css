@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 60px;
   width: 100%;
   padding-left: 0px;
@@ -23,37 +23,35 @@
   width: 100%;
   padding-right: 20px;
 }
-.Section2TextRegion {
+
+.Section2TextRegionOrganizer {
   width: 50%;
-  padding-left: 85px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: end;
 }
-.Section2TextRegion h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.9rem;
+
+.Section2TextRegion-About {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.Section2TextRegion-About h2 {
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 25px;
 }
-.Section2TextRegion hr {
-  border: 1px solid #000;
+.Section2TextRegion-About hr {
+  border: 2px solid #000;
   width: 24%;
   margin-bottom: 20px;
 }
-.Section2TextRegion h1 {
+.Section2TextRegion-About h1 {
   font-family: "Bebas Neue", sans-serif;
   color: #977347;
-  font-size: 3rem;
-  max-width: 420px;
-  line-height: 0.95;
+  font-size: 3.5rem;
+  line-height: 0.9;
   font-weight: 400;
   margin-bottom: 30px;
-}
-.Section2TextRegion p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.2;
-  max-width: 420px;
 }

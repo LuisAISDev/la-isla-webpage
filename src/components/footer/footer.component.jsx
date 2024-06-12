@@ -18,7 +18,7 @@ const Footer = () => {
               <span>CONTACT US</span>
               <br />
               <span className="span-pace">(555) 555-5555 </span>
-              <span>Email: contact@yourcompany.com</span>
+              <span>sales@laislabrand.com</span>
             </p>
           </div>
           <div className="footer__industries">

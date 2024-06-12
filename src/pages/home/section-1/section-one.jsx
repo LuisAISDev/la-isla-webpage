@@ -1,10 +1,9 @@
 import "./section-one.css";
 
 const SectionOne = () => (
-  <div className="section section-one">
-    <div className="section-one-background"></div>
-    <div className="section-content">
-      <div className="container width-limiter">
+  <div className="section-one">
+    <div className="width-limiter">
+      <div className="section-content">
         <div className="section-one-text">
           <h1>Excellence in Swimwear Manufacturing with La Isla</h1>
           <p>

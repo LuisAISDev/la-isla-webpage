@@ -1,9 +1,9 @@
 import "./section-two.css";
 
 const SectionOne = () => (
-  <div className="section section-two" style={{ backgroundColor: "#EEE2D5" }}>
-    <div className="section-content">
-      <div className="sec-two-container width-limiter">
+  <div className="section-two" style={{ backgroundColor: "#EEE2D5" }}>
+    <div className="section-content width-limiter">
+      <div className="sec-two-container">
         <div className="sec-two-subsection">
           <div className="sec-two-subsection-content">
             <h2>Over two decades of industry expertise</h2>

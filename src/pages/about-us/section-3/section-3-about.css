@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #ddf2f2;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 60px;
   width: 100%;
 }
@@ -23,12 +23,8 @@
   width: 100%;
 }
 .Section3AboutTextRegion p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
   margin-right: 100px;
   max-width: 700px;
-  line-height: 28px;
 }
 
 /* Image Region */
@@ -41,7 +37,7 @@
 }
 .Section3AboutImageRegion img {
   width: 100%;
-  margin-left: 20px;
+  padding-left: 40px;
 }
 
 .Section3AboutContact {
@@ -53,9 +49,7 @@
 .Section3AboutcontactBtn {
   background: #977347;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
   padding: 16px 32px;
-  font-size: 1rem;
   font-weight: 700;
   border-radius: 30px;
   cursor: pointer;

@@ -39,16 +39,15 @@
 
 
 .footer__contact-details span {
-  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
   font-weight: 700; /* Specify bold weight */
-  font-size: 0.8rem; /* Adjust font size as needed */
+  font-size: 1.2rem; /* Adjust font size as needed */
   display: inline-block; /* Ensures the elements respect margin and padding */
 }
 .footer__contact-details span:first-child::after {
   content: "";
   display: block;
-  width: 80px;
-  height: 1px; /* Adjust height as needed */
+  width: 140px;
+  height: 4px; /* Adjust height as needed */
   background-color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -60,18 +59,16 @@
 }
 
 .footer__logo {
-  width: 270px; /* Adjust width as needed */
+  width: 380px; /* Adjust width as needed */
   margin-right: 1rem;
 }
 
 
 
 .footer__industries {
-  text-align: left; /* Align text to the left */
+  text-align: left;
   width: auto;
-  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
-  font-weight: 700; /* Specify bold weight */
-  font-size: 0.7rem; /* Adjust font size as needed */
+  font-weight: 700;
 }
 
 .list-organizer {
@@ -80,9 +77,8 @@
   width: 100%; /* Ensure it takes the full width of the container */
 }
 
-.list-organizer > ul { /* Target direct child divs */
-  font-size: 0.8rem; /* Adjust font size as needed */
-  margin-right: 20px; /* Add margin-right for separation */
+.list-organizer > ul {
+  margin-right: 20px;
 }
 
 .list-organizer > ul:last-child { /* Remove margin from last child */
@@ -92,6 +88,7 @@
 .footer__industries h3 {
   margin-top: 0rem;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .footer__industries-divider {
@@ -125,7 +122,7 @@
 }
 
 .footer__industries-list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .footer__link-container {

@@ -18,7 +18,7 @@ const Section1Contact = () => {
             <label>Your message (required)</label>
             <textarea
               name="message"
-              rows="6"
+              rows="9"
               placeholder=""
               required
             ></textarea>

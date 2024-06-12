@@ -1,13 +1,13 @@
 .header {
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   display: flex;
   justify-content: center; /* Centers the header-container horizontally */
   align-items: center;
-  height: 70px;
+  min-height: 80px;
   position: fixed;
   z-index: 10;
-  border-bottom: 3px solid #977347;
+  border-bottom: 5px solid #977347;
 }
 
 .header-container {
@@ -19,10 +19,8 @@
   margin: 0 auto; /* Center container horizontally */
 }
 
-
-
 .logo {
-  width: 190px; /* Adjust width as needed */
+  width: 200px; /* Adjust width as needed */
 }
 
 .header__nav {
@@ -30,10 +28,12 @@
   list-style: none; /* Removes default bullet points */
   margin: 0;
   padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header__nav li {
-  margin-left: 3rem; /* Adjust spacing as needed */
+  margin-left: 2.5rem; /* Adjust spacing as needed */
   display: inline-block; /* Optional for spacing */
 }
 
@@ -42,7 +42,7 @@
   color: #333;
   font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
   font-weight: 400; /* Specify bold weight */
-  font-size: 0.95rem; /* Adjust font size as needed */
+  font-size: 1rem; /* Adjust font size as needed */
 }
 
 .header__nav a:hover {

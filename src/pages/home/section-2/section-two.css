@@ -1,9 +1,13 @@
 /* Styles for Section Two */
 .section-two {
-  padding: 50px 0; /* Add padding as needed */
+  padding: 80px 0; /* Add padding as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-two .section-content {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -31,7 +35,7 @@
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 20px;
-  padding-right: 80px;
+  padding-right: 40px;
   text-align: left;
   border-left: 1.5px solid #000000; /* Adjust color as needed */
 }
@@ -39,7 +43,7 @@
 .sec-two-subsection-content h2 {
   padding-top: 0px;
   padding-bottom: 0px;
-  font-size: 1.2rem; /* Adjust font size as needed */
+  font-size: 1.4rem; /* Adjust font size as needed */
   margin-top: 0px; /* Adjust margin as needed */
   margin-bottom: 20px; /* Adjust margin as needed */
   font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
@@ -49,7 +53,4 @@
 .sec-two-subsection-content p {
   padding-top: 0px;
   padding-bottom: 0px;
-  font-size: 1rem; /* Adjust font size as needed */
-  font-family: 'Montserrat', sans-serif; /* Fallback to regular if bold not loaded */
-  font-weight: 400; /* Specify bold weight */
 }

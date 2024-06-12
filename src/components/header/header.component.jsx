@@ -23,6 +23,9 @@ const Header = () => {
               <Link to="/la-isla-webpage/about">ABOUT US</Link>
             </li>
             <li>
+              <Link to="/la-isla-webpage/journal">JOURNAL</Link>
+            </li>
+            <li>
               <Link to="/la-isla-webpage/contact">CONTACT US</Link>
             </li>
           </ul>

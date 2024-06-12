@@ -10,18 +10,16 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding-top: 64px;
+    padding-top: 98px;
     padding-bottom: 120px;
 }
 
 .Section1ContactForm{
     width: 100%;
     margin-top: 60px;
-
 }
 .Section1ContactForm h2{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -58,7 +56,6 @@
 
 .Section1ContactForm form label{
     font-weight: 700;
-    font-size: 1rem;
     color: #666666;
 }
 
@@ -66,7 +63,6 @@
     background: #977347;
     color: #fff;
     padding: 16px 32px;
-    font-size: 1rem;
     font-weight: 700;
     border-radius: 30px;
     cursor: pointer;
