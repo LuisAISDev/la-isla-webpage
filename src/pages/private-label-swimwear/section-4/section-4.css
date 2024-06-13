@@ -7,8 +7,6 @@
     background-color: #fff;
 }
 
-
-
 .Section4PrivateText{
     display: flex;
     align-items: start;
@@ -22,8 +20,6 @@
 }
 
 .Section4PrivateTextRegionLeft h2{
-    font-size: 2.5rem;
-    font-weight: 700;
     margin-bottom: 17px;
     margin-right: 20px;
 }
@@ -49,10 +45,7 @@
     margin-left: 20px;
 }
 
-
 .Section4PrivateTextRegionRight h2{
-    font-size: 2.5rem;
-    font-weight: 700;
     margin-bottom: 17px;
 }
 .Section4PrivateTextRegionRight hr{
@@ -60,8 +53,6 @@
     width: 21%;
     margin-bottom: 32px;
 }
-
-
 
 .Section4PrivateContact{
     display: flex;
@@ -82,4 +73,85 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* MOBILE */
+@media (max-width: 840px) {
+    .Section4PrivateLabel{
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-color: #fff;
+    }
+    
+    .Section4PrivateText{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+        width: 100%;
+        margin-bottom: 60px;
+    
+    }
+    .Section4PrivateTextRegionLeft{
+        width: 100%;
+    }
+    
+    .Section4PrivateTextRegionLeft h2{
+        margin-bottom: 17px;
+        margin-right: 20px;
+    }
+    .Section4PrivateTextRegionLeft hr{
+        border: 1.5px solid #000;
+        width: 21%;
+        margin-bottom: 32px;
+    }
+    .Section4PrivateCheckText{
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-bottom: 30px;
+    }
+    .Section4PrivateCheckText div{
+        margin-right: 20px;
+    }
+    .Section4PrivateCheckText p{
+        width: 100%;
+    }
+    .Section4PrivateTextRegionRight{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .Section4PrivateTextRegionRight h2{
+        margin-bottom: 17px;
+    }
+    .Section4PrivateTextRegionRight hr{
+        border: 1.5px solid #000;
+        width: 21%;
+        margin-bottom: 32px;
+    }
+    
+    .Section4PrivateContact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    
+    }
+    .Section4PrivateContactBtn{
+        background: #977347;
+        color: #fff;
+        padding: 16px 32px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+        border: 0;
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
 }

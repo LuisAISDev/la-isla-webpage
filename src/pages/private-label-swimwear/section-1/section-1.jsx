@@ -4,6 +4,9 @@ import model from "../../../assets/home/privatefirstmodel.png";
 import modelsecond1 from "../../../assets/home/privatesecondmodel1.png";
 import modelsecond2 from "../../../assets/home/privatesecondmodel2.png";
 
+import model2second1 from "../../../assets/home/fullservice1.png";
+import model2second2 from "../../../assets/home/fullservice2.png";
+
 const Section1PrivateLabel = () => {
   return (
     <div className="Section1PrivateLabel">
@@ -11,9 +14,9 @@ const Section1PrivateLabel = () => {
         <div className="Section1Private1">
           <div className="Section1PrivateTextRegion">
             <div className="Section1PrivateTextRegionAdjust">
-              <h2>Our Company</h2>
+              <h2 className="titles-default">Our Company</h2>
               <hr />
-              <p>
+              <p className="regular-text-extra-height">
                 La Isla strategically maintains offices in the United States
                 (Portland, Oregon), positioning ourselves as a bridge between
                 our clients and our bustling manufacturing hub in Medellín,
@@ -38,10 +41,15 @@ const Section1PrivateLabel = () => {
 
         {/* message prop requires a string */}
         <div className="Section1Private2">
-          <div className="Section1PrivateImageRegion2">
+          <div className="Section1PrivateImageRegion2 fullService1">
             <img src={modelsecond1} alt="" />
             <div />
             <img src={modelsecond2} alt="" />
+          </div>
+          <div className="Section1PrivateImageRegion2 fullService2">
+            <img src={model2second1} alt="" />
+            <div />
+            <img src={model2second2} alt="" />
           </div>
 
           <div className="Section1PrivateTextRegion2">

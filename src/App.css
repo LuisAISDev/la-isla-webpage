@@ -1,25 +1,106 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%; /* Ensure full height of viewport */
 }
 
 body {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #ffffff 0%;
   margin: 0;
-  font-size: 1.15rem;
-  line-height: 1.5;
-  font-weight: 400;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-button {
-  font-size: 1.4rem;
-  font-weight: 400;
+/* DESKTOP */
+@media (min-width: 840px) {
+  body {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .small-titles-default {
+    font-size: 1.4rem; /* Adjust font size as needed */
+    font-weight: 700;
+  }
+
+  .titles-default {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: 700;
+  }
+
+  .bigger-titles-default {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  .bebas-default {
+    font-family: "Bebas Neue", sans-serif;
+    color: #977347;
+    font-size: 3.8rem;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  button {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 840px) {
+  body {
+    font-size: 0.91rem;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .bigger-mobile-text {
+    font-size: 1.04rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .small-titles-default {
+    font-size: 1.03rem;
+    font-weight: 700;
+  }
+
+  .titles-default {
+    font-size: 1.55rem; /* Adjust font size as needed */
+    font-weight: 700;
+  }
+
+  .bigger-titles-default {
+    font-size: 1.55rem; /* Adjust font size as needed */
+    font-weight: 700;
+  }
+
+  .bebas-default {
+    font-family: "Bebas Neue", sans-serif;
+    color: #977347;
+    font-size: 2.45rem;
+    font-weight: 400;
+    line-height: 0.9;
+  }
+
+  .regular-text-extra-height {
+    line-height: 1;
+  }
+
+  button {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+
 }
 
 a:link,
@@ -33,7 +114,7 @@ a {
   text-decoration: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
   line-height: 1;
@@ -52,10 +133,19 @@ a{
   flex-direction: column;
 }
 
-.width-limiter {
-  max-width: 1920px;
-  padding-left: 150px;
-  padding-right: 150px;
+@media (max-width: 840px) {
+  .width-limiter {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 840px) {
+  .width-limiter {
+    max-width: 1920px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }
 
 .flex-centered {

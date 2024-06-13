@@ -12,7 +12,7 @@ const Section2PrivateLabel = () => {
         </div>
         <div className="Section2PrivateTextRegion">
           <div className="Section2PrivateTextRegionAdjustmentsec">
-            <h2>Capabilities</h2>
+            <h2 className="titles-default">Capabilities</h2>
             <hr />
             <div>
               <div className="Section2PrivateCheckText">

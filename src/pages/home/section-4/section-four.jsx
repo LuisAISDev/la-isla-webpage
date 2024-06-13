@@ -1,6 +1,7 @@
 import React from "react";
 import "./section-four.css";
 import model from "../../../assets/home/thirdmodelwhite.png";
+import modeltwo from "../../../assets/home/fourth-model-quality.png";
 
 const SectionFour = () => {
   return (
@@ -8,13 +9,14 @@ const SectionFour = () => {
       <div className="four-section-width">
         <div className="SectionFour">
           <div className="fourImageRegion">
-            <img src={model} alt="" />
+            <img className="selectimg1" src={model} alt="" />
+            <img className="selectimg2" src={modeltwo} alt="" />
           </div>
           <div className="fourTextContent">
             <div className="fourTextRegion">
-              <h2>Quality</h2>
+              <h2 className="titles-default">Quality</h2>
               <hr />
-              <h1>
+              <h1 className="bebas-default">
                 We all know that in the pursuit of perfection, quality reigns
                 supreme!
               </h1>

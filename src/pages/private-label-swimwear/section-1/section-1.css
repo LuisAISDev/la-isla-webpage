@@ -10,7 +10,7 @@
 
 /* Section 1 Private 1 CSSS*/
 
-.centered-privatelabel{
+.centered-privatelabel {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,8 +35,6 @@
 }
 
 .Section1PrivateTextRegion h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
   margin-bottom: 17px;
 }
 .Section1PrivateTextRegion hr {
@@ -115,4 +113,112 @@
   font-weight: 700; /* Specify bold weight */
   width: 100%;
   display: inline;
+}
+
+.fullService1 {
+  display: flex;
+}
+
+.fullService2 {
+  display: none;
+}
+
+/* MOBILE */
+@media (max-width: 840px) {
+  .Section1PrivateLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddf2f2;
+    margin-top: 60px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+
+  .Section1Private1 {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .Section1PrivateTextRegion hr {
+    border: 1.5px solid #000;
+    width: 24%;
+    margin-bottom: 30px;
+  }
+
+  .boldtext {
+    font-size: 1.05rem;
+  }
+
+  .Section1PrivateTextRegion {
+    width: 100%;
+  }
+
+  .Section1PrivateTextRegionAdjust {
+    width: 100%;
+  }
+
+  .Section1PrivateImageRegion {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .Section1PrivateImageRegion img {
+    width: 100%;
+  }
+
+  .Section1Private2 {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  /* Image Region */
+
+  .Section1PrivateImageRegion2 {
+    width: 100%;
+  }
+  .Section1PrivateImageRegion2 img {
+    width: 48%;
+    margin-right: 0px;
+  }
+  .Section1PrivateImageRegion2 div {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  /*Text Region*/
+  .Section1PrivateTextRegion2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 30px;
+  }
+
+  .Section2PrivateTextRegionAdjust {
+    width: 100%;
+  }
+
+  .Section1PrivateTextRegion2 p {
+    width: 100%;
+    display: inline;
+  }
+
+  .Section1PrivateTextRegion2 .boldtext {
+    font-weight: 700; /* Specify bold weight */
+    font-size: 0.9rem;
+    width: 100%;
+    display: inline;
+  }
+
+  .fullService1 {
+    display: none;
+  }
+
+  .fullService2 {
+    display: flex;
+  }
 }

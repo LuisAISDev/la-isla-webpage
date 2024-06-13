@@ -1,59 +1,91 @@
-.Section2PrivateLabel{
+.Section2PrivateLabel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+
+.Section2PrivateLabelCenter {
+  display: flex;
+  align-items: center;
+}
+
+.Section2PrivateImageRegion {
+  width: 50%;
+}
+
+.Section2PrivateImageRegion img {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.Section2PrivateTextRegion {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.Section2PrivateTextRegionAdjustmentsec {
+  width: 82%;
+  padding-right: 9%;
+}
+
+.Section2PrivateTextRegion h2 {
+  margin-bottom: 17px;
+}
+.Section2PrivateTextRegion hr {
+  border: 2px solid #000;
+  width: 21%;
+  margin-bottom: 32px;
+}
+.Section2PrivateCheckText {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  margin-bottom: 30px;
+}
+.Section2PrivateCheckText div {
+  margin-right: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 840px) {
+  .Section2PrivateLabelCenter {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #fff;
-}
-
-.Section2PrivateLabelCenter{
-    display: flex;
     align-items: center;
-}
+  }
 
-
-.Section2PrivateImageRegion{
-    width: 50%;
-
-}
-
-
-.Section2PrivateImageRegion img{
+  .Section2PrivateImageRegion {
     width: 100%;
-    padding-right: 10px;
-}
+  }
 
-.Section2PrivateTextRegion{
-    width: 50%;
+  .Section2PrivateTextRegionAdjustmentsec {
+    width: 100%;
+    padding-right: 0px;
+    margin-top: 40px;
+  }
+
+  .Section2PrivateImageRegion img {
+    width: 100%;
+    padding-right: 0px;
+  }
+  
+
+  .Section2PrivateTextRegion {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: end;
-}
+  }
 
-.Section2PrivateTextRegionAdjustmentsec{
-    width: 82%;
-    padding-right: 9%;
-}
-
-.Section2PrivateTextRegion h2{
-    font-weight: 700;
-    font-size: 2.5rem;
-    margin-bottom: 17px;
-}
-.Section2PrivateTextRegion hr{
+  .Section2PrivateTextRegion hr {
     border: 2px solid #000;
-    width: 21%;
+    width: 30%;
     margin-bottom: 32px;
+  }
 }
-.Section2PrivateCheckText{
-    display: flex;
-    align-items: start;
-    justify-content: left;
-    margin-bottom: 30px;
-}
-.Section2PrivateCheckText div{
-    margin-right: 20px;
-}
-

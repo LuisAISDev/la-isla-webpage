@@ -6,10 +6,8 @@ import Footer from "../../components/footer/footer.component";
 const Journal = () => {
   return (
     <div className="main-container">
-      <Header />
       <Section1Journal />
       <Section2Journal />
-      <Footer />
     </div>
   );
 };

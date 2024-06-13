@@ -6,7 +6,7 @@ const Section3PrivateLabel = () => {
   return (
     <div className="Section3PrivateLabel">
       <div className="Sec3Centered  width-limiter">
-        <h2>Product Design and Development</h2>
+        <h2 className="titles-default">Product Design and Development</h2>
         <hr />
         <div className="Section3Grid">
           <div className="widthequivalent">

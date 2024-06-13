@@ -25,10 +25,7 @@
 }
 
 .Section3PrivateLabel h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
   margin-bottom: 17px;
-  line-height: 1.4;
   max-width: 500px;
 }
 .Section3PrivateLabel hr {
@@ -39,7 +36,7 @@
 
 .Section3PrivateCheckText {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: left;
   margin-bottom: 30px;
 }
@@ -52,4 +49,43 @@
 
 .forceLeftMargin {
   margin-left: 20px;
+}
+
+
+/* MOBILE */
+@media (max-width: 840px) {
+
+  .Section3PrivateLabel {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .Section3PrivateLabel hr {
+    border: 2px solid #000;
+    width: 30%;
+    margin-bottom: 50px;
+  }
+
+  .Section3Grid {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: left;
+  }
+
+  .Section3Grid .widthequivalent {
+    width: 100%;
+  }
+
+  .Section3PrivateCheckText p {
+    width: 100%;
+  }
+
+  .forceLeftMargin {
+    margin-left: 0px;
+  }
+
+  .Section3PrivateCheckText {
+    margin-bottom: 22px;
+  }
 }

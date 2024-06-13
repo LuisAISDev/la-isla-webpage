@@ -6,7 +6,7 @@ const SectionOne = () => (
       <div className="sec-two-container">
         <div className="sec-two-subsection">
           <div className="sec-two-subsection-content">
-            <h2>Over two decades of industry expertise</h2>
+            <h2 className="small-titles-default">Over two decades of industry expertise</h2>
             <p>
               We stand as a beacon of quality, innovation, and sustainability in
               the world of swimwear production.
@@ -15,7 +15,7 @@ const SectionOne = () => (
         </div>
         <div className="sec-two-subsection">
           <div className="sec-two-subsection-content">
-            <h2>Our US offices</h2>
+            <h2 className="small-titles-default">Our US offices</h2>
             <p>
               Are in Portland, Oregon and our manufacturing facilities are in
               Medellin, Colombia.
