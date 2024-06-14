@@ -4,21 +4,31 @@ import modelorange from "../../../assets/home/aboutmodelgold.png";
 import modelblue from "../../../assets/home/aboutmodelblue.png";
 import modelpink from "../../../assets/home/aboutmodelwhite.png";
 
+import modelabout1 from "../../../assets/home/aboutimgs1.png";
+import modelabout2 from "../../../assets/home/aboutimgs2.png";
+import modelabout3 from "../../../assets/home/aboutimgs3.png";
+
 const Section1About = () => {
   return (
     <div className="Section1About">
       <div className="Section1AboutCentered">
         <div className="width-limiter">
           <div className="Section1AboutTitle">
-            <h1>
+            <h1 className="bebas-default">
               La Isla Fashion Group, LLC, headquartered in Portland, Oregon,
               operates manufacturing offices in Medellin, Colombia.
             </h1>
           </div>
-          <div className="Section1Aboutimages">
+          <div className="Section1Aboutimages aboutimgstoggle1">
             <img src={modelorange} alt="" />
             <img className="Section1AboutCenterImage" src={modelblue} alt="" />
             <img src={modelpink} alt="" />
+          </div>
+
+          <div className="Section1Aboutimages aboutimgstoggle2">
+            <img src={modelabout1} alt="" />
+            <img className="Section1AboutCenterImage" src={modelabout2} alt="" />
+            <img src={modelabout3} alt="" />
           </div>
           <div className="Section1AboutText">
             <p>

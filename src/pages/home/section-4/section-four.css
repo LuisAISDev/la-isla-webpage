@@ -107,3 +107,13 @@
     display: flex;
   }
 }
+
+/* WIDE SCREENS */
+@media (min-width: 2300px) {
+  .fourTextRegion {
+    width: 83%;
+    max-width: 1000px;
+  }
+  
+}
+

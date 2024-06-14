@@ -3,6 +3,7 @@ import heart from '../../../../assets/home/Heart.svg'
 import check from '../../../../assets/home/Check.svg'
 import { useState } from 'react'
 
+
 const Section4SEO = () => {
   const [SEO_Data] = useState([
     {

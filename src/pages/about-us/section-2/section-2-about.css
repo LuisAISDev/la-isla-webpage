@@ -38,8 +38,6 @@
 }
 
 .Section2TextRegion-About h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
   margin-bottom: 25px;
 }
 .Section2TextRegion-About hr {
@@ -48,10 +46,71 @@
   margin-bottom: 20px;
 }
 .Section2TextRegion-About h1 {
-  font-family: "Bebas Neue", sans-serif;
-  color: #977347;
-  font-size: 3.5rem;
   line-height: 0.9;
-  font-weight: 400;
   margin-bottom: 30px;
+}
+
+.aloneimgAbout1 {
+  display: flex;
+}
+
+.aloneimgAbout2 {
+  display: none;
+}
+
+@media (max-width: 840px) {
+  .Section2About {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Section2Centered {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Section2ImageRegion {
+    width: 100%;
+  }
+  .Section2ImageRegion img {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .Section2TextRegionOrganizer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 30px;
+  }
+
+  .Section2TextRegion-About {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Section2TextRegion-About h2 {
+    margin-bottom: 25px;
+  }
+  .Section2TextRegion-About hr {
+    border: 1.5px solid #000;
+    width: 24%;
+    margin-bottom: 20px;
+  }
+  .Section2TextRegion-About h1 {
+    margin-bottom: 30px;
+  }
+
+  .aloneimgAbout1 {
+    display: none;
+  }
+  
+  .aloneimgAbout2 {
+    display: flex;
+  }
 }

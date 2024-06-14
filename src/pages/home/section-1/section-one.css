@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
+  height: 70vh;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
 }
 
@@ -17,6 +18,7 @@
     align-items: start;
     margin-top: 60px;
     background-image: url("../../../assets/home/Banner1-Mobile.jpg");
+    height: auto;
   }
 }
 
@@ -47,6 +49,43 @@
 }
 
 
+@media (min-width: 840px) {
+  .flex-column-generic {
+    height: 100%;
+  }
+  
+  .section-one .width-limiter {
+    width: 100%;
+  }
+  
+  
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-one-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    justify-content: center;
+
+    max-width: 380px;
+    color: white; /* Adjust text color */
+    margin-top: 90px;
+    margin-bottom: 90px;
+    height: 100%;
+  }
+  
+}
+
+
 
 
 .section-one-text h1 {
@@ -63,3 +102,15 @@
   }
   
 }
+
+/* WIDE SCREENS */
+@media (min-width: 2300px) {
+  .section-one-text {
+    max-width: 550px;
+    color: white; /* Adjust text color */
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  
+}
+
